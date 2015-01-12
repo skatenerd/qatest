@@ -1,5 +1,5 @@
 function MenuWidget() {
-    this.data_url = "http://s3-ap-northeast-1.amazonaws.com/menuitemstest/items.json";
+    this.data_url = "http://api.myjson.com/bins/nm17";
     this.checkedItems = {};
     this.items = {};
     this.getMenuItems();
